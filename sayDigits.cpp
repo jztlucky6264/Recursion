@@ -5,12 +5,14 @@ void sayDigits(int number,string arr[]){
 
 //base case
     if(number==0){
-        return ;
+ return;
     }
+
 
 //processing
   int digit=number%10;
-  number=number/10;
+ number=number/10;
+
 
 //recursive call
 
