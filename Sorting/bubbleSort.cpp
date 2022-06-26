@@ -19,8 +19,6 @@ void bubbleSortRec(int *arr,int size){
     //recuersive call
 
      bubbleSortRec(arr,size-1);
-
-
 }
 
 int main()

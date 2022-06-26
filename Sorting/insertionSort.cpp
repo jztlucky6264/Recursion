@@ -10,7 +10,7 @@ void insertionSortRec(int *arr,int n){
 
   //recursive func call
 
-  insertionSortRec(arr,n-1);
+insertionSortRec(arr,n-1);
 
   //processing
   int last=arr[n-1];   
@@ -22,6 +22,8 @@ void insertionSortRec(int *arr,int n){
         j--;
     }
   arr[j+1]=last;
+
+
 
  }
 
